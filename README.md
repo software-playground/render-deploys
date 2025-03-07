@@ -7,9 +7,10 @@
    - Root directory: useful for monorepos
    - Build command: e.g `npm ci --omit=dev`
    - Start command: e.g `npm start`
-   - `Advanced > Environments` to add env vars 
+   - `Advanced > Environments` to add env vars
    - `Advanced > Auto-Deploy` to choose if you want CD on push
    - `Advanced > Build filters` is useful for auto-deploys, e.g: ignoring deploys triggered by readme changes
 
 ## Manual deployment
+
 use [deploy hooks](https://render.com/docs/deploy-hooks)
